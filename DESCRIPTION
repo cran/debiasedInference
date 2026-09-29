@@ -1,0 +1,30 @@
+Package: debiasedInference
+Type: Package
+Title: Bootstrap Inference with Debiased Nonparametric Estimators
+Version: 0.1.0
+Authors@R: c(
+    person("Gang", "Cheng", role = c("aut", "cre"),
+           email = "mathchenggang@gmail.com"),
+    person("Yen-Chi", "Chen", role = "aut",
+           email = "yenchic@uw.edu")
+  )
+Description: Implements debiased kernel density and local-linear regression
+    estimators with empirical-bootstrap simultaneous confidence bands, as
+    proposed by Cheng and Chen (2019) <doi:10.1214/19-EJS1575>. Also provides
+    bandwidth selectors and grid-based confidence sets for density level sets
+    and inverse regression.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://github.com/mathcg/debiased-inference,
+        https://doi.org/10.1214/19-EJS1575
+BugReports: https://github.com/mathcg/debiased-inference/issues
+NeedsCompilation: no
+Packaged: 2026-09-19 05:37:24 UTC; runner
+Author: Gang Cheng [aut, cre],
+  Yen-Chi Chen [aut]
+Maintainer: Gang Cheng <mathchenggang@gmail.com>
+Repository: CRAN
+Date/Publication: 2026-09-29 14:10:10 UTC
